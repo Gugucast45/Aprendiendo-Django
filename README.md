@@ -24,6 +24,14 @@ Esto nos enseña todos los mando que que se puede utilizar con 'manage.py' desde
 
 ## Comandos generales
 
+**Migrate**
+
+`
+python manage.py migrate
+`
+
+Genera una base de datos con las funcionalidades que funcionan por defecto en django (db.sqlite3).
+
 **Runserver**
 
 `
@@ -32,10 +40,4 @@ python manage.py runserver
 
 Corre el servidor de Django para la web, si no se está corriendo no servirá la web.
 
-**Migrate**
 
-`
-python manage.py migrate
-`
-
-Genera una base de datos con las funcionalidades que funcionan por defecto en django (db.sqlite3).
